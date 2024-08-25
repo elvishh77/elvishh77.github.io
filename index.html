@@ -75,6 +75,34 @@
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='survey_image'>
+                  <img src='images/rtf.png' width="200"></div>
+                <img src='images/rtf.png' width="200">
+              </div>
+              <script type="text/javascript">
+                function survey_start() {
+                  document.getElementById('survey_image').style.opacity = "1";
+                }
+  
+                function survey_stop() {
+                  document.getElementById('survey_image').style.opacity = "0";
+                }
+                survey_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:middle">
+              <a href="https://www.arxiv.org/abs/2408.12036">
+                <papertitle>Reasoning and Tools for Human-Level Forecasting</papertitle>
+              </a>
+              <br>
+              <strong>Elvis Hsieh</strong>, Preston Fu, Jonathan Chen
+              <br>
+            </td>
+          </tr>
+
+          <tr onmouseout="survey_stop()" onmouseover="survey_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='survey_image'>
                   <img src='images/llamp.png' width="200"></div>
                 <img src='images/llamp.png' width="200">
               </div>
